@@ -1,0 +1,15 @@
+
+p	java:S116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¬­Áøÿÿÿÿ8ÚŒÙ¾Î1
+w	java:S116
+"VRename this field "Description" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¼Â­ùÿÿÿÿ8ÛŒÙ¾Î1
+o	java:S116"SRename this field "ImageURL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÅ¸8ÛŒÙ¾Î1
+l	java:S116"PRename this field "Price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«­’ô8ÛŒÙ¾Î1
+o	java:S116"SRename this field "Discount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¬¹¡8ÛŒÙ¾Î1
+v	java:S116"URename this field "SalesPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìû×ªûÿÿÿÿ8ÛŒÙ¾Î1
+m	java:S116"QRename this field "Status" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×˜ñ8ÛŒÙ¾Î1
+w	java:S116"VRename this field "CreatedDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ÓÜÿÿÿÿÿ8ÛŒÙ¾Î1
+r	java:S116"VRename this field "CreatedUser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÈ¶Õ8ÛŒÙ¾Î1
+x	java:S116"WRename this field "ModifiedDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÕÙúûÿÿÿÿ8ÛŒÙ¾Î1
+x	java:S116"WRename this field "ModifiedUser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÄ•½şÿÿÿÿ8ÛŒÙ¾Î1
+P
+java:S1068".Remove this unused "categoryId" private field.(¹¥Áşÿÿÿÿ8ŞŒÙ¾Î1
