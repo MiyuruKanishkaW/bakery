@@ -11,6 +11,17 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.Optional;
 
+/*
+ * Certificate Details ServiceImpl
+ *
+******************************************************************************************************
+ ###      Date           Story Point       Task No.          Author            Description
+ -----------------------------------------------------------------------------------------------------
+  1    10-01-2024                                            NimashL           Created
+
+******************************************************************************************************
+*/
+
 @Component
 @Transactional
 public class CustomerServiceImpl implements CustomerService {
@@ -21,12 +32,11 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public List<Customer> getAllCustomer(){
         return customerRepository.findAll();
-
     }
 
     @Override
     public Optional<Customer> getCustomerByUserName(String userName){
-        Optional<Customer> customer = customerRepository.findById(Long.valueOf(userName));
+        Optional<Customer> customer = customerRepository.findByUserName(userName);
         if (customer.isPresent()){
             return Optional.ofNullable(customer.get());
         } else {
@@ -45,12 +55,13 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public Optional<Customer> getCustomerByStatus(String status){
-        Optional<Customer> customer = customerRepository.findById(Long.valueOf(status));
-        if (customer.isPresent()){
-            return Optional.ofNullable(customer.get());
+    public List<Customer> getCustomerByStatus(String status){
+        // return customerRepository.findByStatus(status); //
+        List<Customer> customerList = customerRepository.findByStatus(status);
+        if (!customerList.isEmpty() && customerList!=null){
+            return customerList;
         }else {
-            return Optional.empty();
+            return null;
         }
     }
 
@@ -71,7 +82,6 @@ public class CustomerServiceImpl implements CustomerService {
 
         customerRepository.save(customer);
         return "record saved successfully";
-
     }
 
     @Override
@@ -106,6 +116,5 @@ public class CustomerServiceImpl implements CustomerService {
         }else {
             return "record not found";
         }
-
     }
 }

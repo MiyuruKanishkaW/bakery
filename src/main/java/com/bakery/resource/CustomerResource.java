@@ -2,6 +2,17 @@ package com.bakery.resource;
 
 import java.util.Date;
 
+/*
+ * Certificate Details Resource
+ *
+******************************************************************************************************
+ ###      Date           Story Point       Task No.          Author            Description
+ -----------------------------------------------------------------------------------------------------
+  1    10-01-2024                                            NimashL           Created
+
+******************************************************************************************************
+*/
+
 public class CustomerResource {
 
     private String firstName;
@@ -14,8 +25,6 @@ public class CustomerResource {
     private String createdUser;
     private Date modifiedDate;
     private String modifiedUser;
-
-//------------------------------------------------------------------------------------
 
 
     public String getFirstName() {
