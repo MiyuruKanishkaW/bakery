@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6f08f013-60c3-41ff-b2cf-0a88402fba74" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
@@ -92,6 +93,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" afterDir="false" />
+=======
+    <list default="true" id="25882b54-c897-4eb6-8848-3a2889d5ccde" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+>>>>>>> dec2226bff675989acd8840fb3f344db0621453e
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +134,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.BakeryApplication.executor&quot;: &quot;Run&quot;,
+<<<<<<< HEAD
     &quot;git-widget-placeholder&quot;: &quot;Merging Nimash&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;Nimash&quot;,
+>>>>>>> dec2226bff675989acd8840fb3f344db0621453e
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Fusion-X Workspace/STS workspace/Fusion-X Project/bakery&quot;,
@@ -157,6 +166,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-f644763e9732-4a89cc43" />
         <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
       </set>
     </attachedChunks>
@@ -186,7 +196,8 @@
       <workItem from="1705377912196" duration="1789000" />
       <workItem from="1705469990649" duration="1495000" />
       <workItem from="1705474271271" duration="336000" />
-      <workItem from="1705474621463" duration="580000" />
+      <workItem from="1705474621463" duration="1771000" />
+      <workItem from="1705481803178" duration="4493000" />
     </task>
     <servers />
   </component>

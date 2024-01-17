@@ -56,11 +56,6 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public List<Customer> getCustomerByStatus(String status){
-<<<<<<< HEAD
-        //return customerRepository.findByStatus(status);
-=======
-        // return customerRepository.findByStatus(status); //
->>>>>>> 646e5b944c97a69a29afb03f883c1d5bb1466aa6
         List<Customer> customerList = customerRepository.findByStatus(status);
         if (!customerList.isEmpty() && customerList!=null){
             return customerList;
