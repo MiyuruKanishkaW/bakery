@@ -2,6 +2,10 @@ databaseChangeLog:
   - include:
       file: "db/tables/sequence.yml"
   - include:
+<<<<<<< HEAD
       file: "db/tables/customer.yml"
                           
     
+=======
+      file: "db/tables/category.yml"
+>>>>>>> 91a320f19f0b0ffa43c352c081e59e4b023bb36d
