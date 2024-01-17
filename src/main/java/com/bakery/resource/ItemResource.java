@@ -29,11 +29,11 @@ public class ItemResource {
         Name = name;
     }
 
-    public Long getCode() {
+    public String getCode() {
         return code;
     }
 
-    public void setCode(Long code) {
+    public void setCode(String code) {
         this.code = code;
     }
 
@@ -115,5 +115,8 @@ public class ItemResource {
 
     public void setModifiedUser(Date modifiedUser) {
         ModifiedUser = modifiedUser;
+    }
+
+    public void setId(Long id) {
     }
 }

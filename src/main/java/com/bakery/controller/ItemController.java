@@ -1,9 +1,8 @@
 package com.bakery.controller;
 
+import com.bakery.domain.Item;
 import com.bakery.resource.ItemResource;
 import com.bakery.service.ItemService;
-import jdk.internal.loader.Resource;
-import org.hibernate.cache.spi.support.AbstractReadWriteAccess;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -39,7 +38,7 @@ public String saveItem(@RequestBody ItemResource itemResource){
     return itemService.getItemByCode(code);
 }
 @GetMapping(value = "catagoryId")
-    public Optional<Item> getItemByCatagory(@PathVariable Long catagoryId){
+    public List<Item> getItemByCatagory(@PathVariable Long catagoryId){
     return itemService.getItemByCatagory(catagoryId);
 }
 @GetMapping(value = "/{id}")

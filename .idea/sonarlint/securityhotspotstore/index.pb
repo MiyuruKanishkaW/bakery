@@ -31,3 +31,5 @@ a
 1src/main/java/com/bakery/enums/ServiceEntity.java,6\9\69553ef39fba713635469729989610d989dcc875
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+Y
+)src/main/java/com/bakery/domain/Item.java,4\a\4a634fdd206abeee54156826f492d949cee8917e

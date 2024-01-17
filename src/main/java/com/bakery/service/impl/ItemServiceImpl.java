@@ -1,12 +1,11 @@
 package com.bakery.service.impl;
 
+import com.bakery.domain.Item;
 import com.bakery.repository.ItemRepository;
 import com.bakery.resource.ItemResource;
 import com.bakery.service.ItemService;
-import org.hibernate.cache.spi.support.AbstractReadWriteAccess;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 import java.util.Optional;
@@ -27,7 +26,7 @@ public class ItemServiceImpl implements ItemService {
     @Autowired
     public ItemRepository itemRepository;
 @Override
-    public String saveItem(@PathVariable ItemResource itemResource) {
+    public String saveItem(ItemResource itemResource) {
         // Item item= new Item();
         return itemRepository.save(itemResource);
     }
@@ -54,7 +53,7 @@ public class ItemServiceImpl implements ItemService {
 }
 @Override
     public Item deleteAllItem(){
-    return itemRepository.deleteAll();
+    return null;
 }
 @Override
     public void deleteById(Long id){

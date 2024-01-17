@@ -11,5 +11,7 @@ w	java:S116"VRename this field "CreatedDate" to match the regular expression 
 r	java:S116"VRename this field "CreatedUser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÈ¶Õ8ÛŒÙ¾Î1
 x	java:S116"WRename this field "ModifiedDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÕÙúûÿÿÿÿ8ÛŒÙ¾Î1
 x	java:S116"WRename this field "ModifiedUser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÄ•½şÿÿÿÿ8ÛŒÙ¾Î1
+
+java:S1186x"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ˆÃ»·8à¦ñÏ1
 P
 java:S1068".Remove this unused "categoryId" private field.(¹¥Áşÿÿÿÿ8ŞŒÙ¾Î1
