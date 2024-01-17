@@ -3,6 +3,17 @@ package com.bakery.domain;
 import javax.persistence.*;
 import java.util.Date;
 
+/*
+ * Certificate Details Domain
+ *
+******************************************************************************************************
+ ###      Date           Story Point       Task No.          Author            Description
+ -----------------------------------------------------------------------------------------------------
+  1     10-01-2024                                           NimashL            Created
+
+******************************************************************************************************
+*/
+
 @Entity
 @Table(name = "customer")
 public class Customer {
@@ -41,8 +52,6 @@ public class Customer {
 
     @Column(name = "modified_user")
     private String modifiedUser;
-
-//-------------------------------------------------------------------------
 
 
     public Long getId() {

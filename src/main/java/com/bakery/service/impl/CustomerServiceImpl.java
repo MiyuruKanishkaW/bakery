@@ -11,6 +11,17 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.Optional;
 
+/*
+ * Certificate Details ServiceImpl
+ *
+******************************************************************************************************
+ ###      Date           Story Point       Task No.          Author            Description
+ -----------------------------------------------------------------------------------------------------
+  1    10-01-2024                                            NimashL           Created
+
+******************************************************************************************************
+*/
+
 @Component
 @Transactional
 public class CustomerServiceImpl implements CustomerService {
@@ -21,7 +32,6 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public List<Customer> getAllCustomer(){
         return customerRepository.findAll();
-
     }
 
     @Override
@@ -46,7 +56,11 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public List<Customer> getCustomerByStatus(String status){
+<<<<<<< HEAD
         //return customerRepository.findByStatus(status);
+=======
+        // return customerRepository.findByStatus(status); //
+>>>>>>> 646e5b944c97a69a29afb03f883c1d5bb1466aa6
         List<Customer> customerList = customerRepository.findByStatus(status);
         if (!customerList.isEmpty() && customerList!=null){
             return customerList;
@@ -72,7 +86,6 @@ public class CustomerServiceImpl implements CustomerService {
 
         customerRepository.save(customer);
         return "record saved successfully";
-
     }
 
     @Override
@@ -107,6 +120,5 @@ public class CustomerServiceImpl implements CustomerService {
         }else {
             return "record not found";
         }
-
     }
 }
