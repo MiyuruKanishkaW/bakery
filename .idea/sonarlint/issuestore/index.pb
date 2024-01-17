@@ -43,3 +43,5 @@ k
 ;src/main/java/com/bakery/controller/CustomerController.java,1\1\1118b908ef04b30b4812b9441e76d4e9147313af
 k
 ;src/main/java/com/bakery/controller/CategoryController.java,3\b\3b673222bce03e679e03e5787e5fc95c5f5e2a69
+]
+-src/main/java/com/bakery/domain/Category.java,3\b\3b8a2d2c810a24479cae8af7abc29904422fc28a
