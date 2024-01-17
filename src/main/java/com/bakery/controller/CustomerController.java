@@ -23,11 +23,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping(value = "/customer")
 @CrossOrigin(origins = "*")
-<<<<<<< HEAD:src/main/java/com/bakery/controller/customerController.java
-public class customerController {
-=======
 public class CustomerController {
->>>>>>> 646e5b944c97a69a29afb03f883c1d5bb1466aa6:src/main/java/com/bakery/controller/CustomerController.java
 
     @Autowired
     private CustomerService customerService;
@@ -44,6 +40,7 @@ public class CustomerController {
 
     @GetMapping("/{id}")
     public Optional<Customer> getCustomerById(@PathVariable Long id){
+
         return customerService.getCustomerById(id);
     }
 
