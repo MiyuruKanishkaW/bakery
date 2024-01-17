@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(value = "/customer")
+@CrossOrigin(origins = "*")
 public class customerController {
 
     @Autowired
@@ -22,20 +23,20 @@ public class customerController {
 
     }
 
-    @GetMapping("/username")
+    @GetMapping("/userName/{userName}")
     public Optional<Customer> getCustomerByUserName(@PathVariable String userName){
         return customerService.getCustomerByUserName(userName);
 
     }
 
-    @GetMapping("/id")
+    @GetMapping("/{id}")
     public Optional<Customer> getCustomerById(@PathVariable Long id){
         return customerService.getCustomerById(id);
 
     }
 
-    @GetMapping("/status")
-    public Optional<Customer> getCustomerByStatus(@PathVariable String status){
+    @GetMapping("/status/{status}")
+    public List<Customer> getCustomerByStatus(@PathVariable String status){
         return customerService.getCustomerByStatus(status);
 
     }
@@ -46,14 +47,14 @@ public class customerController {
 
     }
 
-    @PutMapping("/id")
+    @PutMapping("/{id}")
     public String updateCustomer(@PathVariable Long id, @RequestBody CustomerResource customerResource){
         return customerService.updateCustomer(id, customerResource);
 
     }
 
-    @DeleteMapping("/id")
-    public String deleteCustomer(Long id){
+    @DeleteMapping("/{id}")
+    public String deleteCustomer(@PathVariable Long id){
         return customerService.deleteCustomer(id);
 
     }

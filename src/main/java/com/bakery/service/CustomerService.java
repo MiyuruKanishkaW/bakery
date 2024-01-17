@@ -17,7 +17,7 @@ public interface CustomerService {
 
     Optional<Customer> getCustomerById(Long id);
 
-    Optional<Customer> getCustomerByStatus(String status);
+    List<Customer> getCustomerByStatus(String status);
 
     String saveCustomer(CustomerResource customerResource);
 
