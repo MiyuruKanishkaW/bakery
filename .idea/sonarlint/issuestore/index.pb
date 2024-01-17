@@ -33,3 +33,13 @@ a
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 Y
 )src/main/java/com/bakery/domain/Item.java,4\a\4a634fdd206abeee54156826f492d949cee8917e
+]
+-src/main/java/com/bakery/domain/Customer.java,d\e\de5e5f293347c0635d10bc6c3f66e3d437be181b
+g
+7src/main/java/com/bakery/resource/CustomerResource.java,e\9\e92c72090b08f08bd5f74f0f2692910e1a864f07
+f
+6src/main/java/com/bakery/resource/CategoryRequest.java,0\c\0c7bd01314e5e440facda3dc86c8ffd59b23dd2f
+k
+;src/main/java/com/bakery/controller/CustomerController.java,1\1\1118b908ef04b30b4812b9441e76d4e9147313af
+k
+;src/main/java/com/bakery/controller/CategoryController.java,3\b\3b673222bce03e679e03e5787e5fc95c5f5e2a69

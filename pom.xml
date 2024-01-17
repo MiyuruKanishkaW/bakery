@@ -21,7 +21,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-security</artifactId>-->
+<!--		</dependency>-->
+>>>>>>> 91a320f19f0b0ffa43c352c081e59e4b023bb36d
+=======
+>>>>>>> 646e5b944c97a69a29afb03f883c1d5bb1466aa6
+>>>>>>> 9001cc09052e32258c28ad6bc0447471a86a982c
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -37,11 +50,15 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<<<<<<< HEAD
 
 		<dependency>
+=======
+		<!--dependency>
+>>>>>>> 9001cc09052e32258c28ad6bc0447471a86a982c
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
-		</dependency>
+		</dependency-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -75,7 +92,21 @@
 			<artifactId>springfox-bean-validators</artifactId>
 			<version>2.9.2</version>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<!--		<dependency>-->
+<!--			<groupId>io.jsonwebtoken</groupId>-->
+<!--			<artifactId>jjwt</artifactId>-->
+<!--			<version>0.9.1</version>-->
+<!--		</dependency>-->
+>>>>>>> 91a320f19f0b0ffa43c352c081e59e4b023bb36d
+=======
+>>>>>>> 646e5b944c97a69a29afb03f883c1d5bb1466aa6
+>>>>>>> 9001cc09052e32258c28ad6bc0447471a86a982c
 	</dependencies>
 
 	<build>

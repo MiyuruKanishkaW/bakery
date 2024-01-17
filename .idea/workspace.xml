@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f08f013-60c3-41ff-b2cf-0a88402fba74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/448e9ee2-23e0-4999-8ecf-c8d8888f4f8a/storage_v2/_src_/schema/AnRkr_bakery.s2f6tg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/448e9ee2-23e0-4999-8ecf-c8d8888f4f8a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/448e9ee2-23e0-4999-8ecf-c8d8888f4f8a/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/448e9ee2-23e0-4999-8ecf-c8d8888f4f8a/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/448e9ee2-23e0-4999-8ecf-c8d8888f4f8a/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/resource/CategoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/resource/CustomerResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bakery/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/tables/category.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/tables/customer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/BakeryApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/base/BaseResponseEntityExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/config/ExpandedParameterNotBlankAnnotationPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/config/SpringFoxConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/controller/customerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/core/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/core/DefaultRequestHeaders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/core/LogginAuthentcation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/core/LoggingHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/domain/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/domain/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/enums/CommonStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/enums/FlagStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/enums/ServiceEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/exceptions/NoRecordFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/exceptions/UserNotFound.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/exceptions/ValidateRecordException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/repository/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/resource/CategoryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/resource/CommonResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/resource/CustomerResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/resource/MessageResponseResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/resource/ValidateResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bakery/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/changelog.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/tables/category.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/tables/customer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/tables/sequence.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/notification.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bakery/BakeryApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f8116b13251f966c9832e4326139af10db2f8a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d0da81a48291af8b8ee93fb41df22719d337091" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e6917770006c326e60738d700405f9779cd1328" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a634fdd206abeee54156826f492d949cee8917e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a634fdd206abeee54156826f492d949cee8917e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7984c8e24c0442b0b51c186f8d7418f9aaad8ca5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9630aab09a4d2ffa0025c7eb955d9f7c6fcc18f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef252428e2bc201a4bce962b61ef283e34f27662" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f8116b13251f966c9832e4326139af10db2f8a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/d/2d0da81a48291af8b8ee93fb41df22719d337091" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/e/2e6917770006c326e60738d700405f9779cd1328" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/9/7984c8e24c0442b0b51c186f8d7418f9aaad8ca5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/6/9630aab09a4d2ffa0025c7eb955d9f7c6fcc18f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/f/ef252428e2bc201a4bce962b61ef283e34f27662" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/BakeryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/BakeryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2aX3A4ee2bsiXgnHBQh5MD4yKiG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BakeryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging Nimash&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Fusion-X Workspace/STS workspace/Fusion-X Project/bakery&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="BakeryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="bakery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bakery.BakeryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25882b54-c897-4eb6-8848-3a2889d5ccde" name="Changes" comment="" />
+      <created>1704450949997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704450949997</updated>
+      <workItem from="1704450951046" duration="5080000" />
+      <workItem from="1704478909374" duration="852000" />
+      <workItem from="1704653209941" duration="2660000" />
+      <workItem from="1704687786975" duration="11806000" />
+      <workItem from="1704708576981" duration="92000" />
+      <workItem from="1704708806367" duration="278000" />
+      <workItem from="1704709513430" duration="1288000" />
+      <workItem from="1704711208666" duration="7000" />
+      <workItem from="1704772510516" duration="1192000" />
+      <workItem from="1704881522893" duration="1325000" />
+      <workItem from="1704959359377" duration="15598000" />
+      <workItem from="1704998454435" duration="688000" />
+      <workItem from="1704999220843" duration="416000" />
+      <workItem from="1705036749453" duration="1620000" />
+      <workItem from="1705377912196" duration="1789000" />
+      <workItem from="1705469990649" duration="1495000" />
+      <workItem from="1705474271271" duration="336000" />
+      <workItem from="1705474621463" duration="580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
