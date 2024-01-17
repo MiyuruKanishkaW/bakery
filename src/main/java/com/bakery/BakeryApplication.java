@@ -10,7 +10,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import javax.servlet.Filter;
 
 @SpringBootApplication(exclude={SolrAutoConfiguration.class})
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
 @EnableSwagger2
 public class BakeryApplication {
 
