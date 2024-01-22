@@ -1,0 +1,82 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: RavinduMadh
+      changes:
+        - createTable:
+            tableName: item
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: varchar(70)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: code
+                  type: varchar(70)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: description
+                  type: varchar(500)
+                  constraints:
+                    nullable: true
+              - column:
+                  name: image_url
+                  type: varchar(100)
+                  constraints:
+                    nullable: true
+              - column:
+                  name: price
+                  type: varchar(70)
+                  constraints:
+                    nullable: true
+              - column:
+                  name: discount
+                  type: varchar(70)
+                  constraints:
+                    nullable: true
+              - column:
+                  name: sale_price
+                  type: varchar(70)
+                  constraints:
+                    nullable: ture
+              - column:
+                  name: category_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_category_id
+                    references: category(id)
+              - column:
+                  name: status
+                  type: varchar(30)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_user
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_date
+                  type: timestamp
+                  constraints:
+                    nullable: false
+              - column:
+                  name: modified_user
+                  type: varchar(255)
+                  constraints:
+                    nullable: true
+              - column:
+                  name: modified_date
+                  type: timestamp
+                  constraints:
+                    nullable: true
