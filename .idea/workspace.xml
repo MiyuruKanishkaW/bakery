@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="25882b54-c897-4eb6-8848-3a2889d5ccde" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     &quot;git-widget-placeholder&quot;: &quot;Nimash&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Fusion-X Workspace/STS workspace/Fusion-X Project/bakery&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Fusion-X Workspace/STS workspace/Fusion-X Project/BookShop&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -105,7 +104,13 @@
       <workItem from="1705474271271" duration="336000" />
       <workItem from="1705474621463" duration="1771000" />
       <workItem from="1705481803178" duration="5427000" />
-      <workItem from="1705487580515" duration="387000" />
+      <workItem from="1705487580515" duration="1085000" />
+      <workItem from="1705512208870" duration="621000" />
+      <workItem from="1705642944209" duration="594000" />
+      <workItem from="1705770576926" duration="629000" />
+      <workItem from="1705862188583" duration="712000" />
+      <workItem from="1705984696817" duration="426000" />
+      <workItem from="1705987417236" duration="593000" />
     </task>
     <servers />
   </component>
