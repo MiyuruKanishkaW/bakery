@@ -6,13 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="25882b54-c897-4eb6-8848-3a2889d5ccde" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/controller/empty.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/domain/empty.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/repository/empty.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/service/empty.txt" beforeDir="false" />
-=======
->>>>>>> 5229253b26be3abf993c73aa2596d56e4b5a88e2
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +63,8 @@
     "git-widget-placeholder": "Nimash",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-<<<<<<< HEAD
     "last_opened_file_path": "D:/Fusion-X Workspace/STS workspace/New folder/comn-common",
-=======
     "last_opened_file_path": "D:/FusionX/comn-common",
->>>>>>> 5229253b26be3abf993c73aa2596d56e4b5a88e2
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
