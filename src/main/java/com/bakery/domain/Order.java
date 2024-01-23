@@ -17,7 +17,7 @@ import java.util.Date;
  */
 
 @Entity
-@Table(name ="Order")
+@Table(name ="order")
 public class Order {
 
     @Id
@@ -25,7 +25,7 @@ public class Order {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "referenceCode")
+    @Column(name = "reference_Code")
     private String referenceCode;
 
     @Column(name="description")
