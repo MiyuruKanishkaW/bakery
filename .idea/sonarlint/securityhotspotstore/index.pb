@@ -35,3 +35,5 @@ k
 ;src/main/java/com/bakery/repository/CategoryRepository.java,c\d\cd169027a410ebfb0c8c32c6ae061367dc9a29cc
 e
 5src/main/java/com/bakery/service/CustomerService.java,d\b\dba733df075c2574b41391185c5b54f4c6279e1c
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

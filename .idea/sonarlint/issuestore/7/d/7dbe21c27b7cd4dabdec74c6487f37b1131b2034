@@ -1,8 +1,11 @@
 
+]
+java:S3655n"@Call "existingCategotry.isPresent()" before accessing the value.(ñÑ×˜8Æû™¥Ó1
 _
 java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8Ð ö‹Ò1
 _
 java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄÞ8Ñ ö‹Ò1
-X	java:S1259"<This block of commented-out lines of code should be removed.(ŽúüÏ8Ø ö‹Ò1
+J	java:S108)")Either remove or fill this block of code.(žÞ€Äþÿÿÿÿ8íû™¥Ó1
+X	java:S125>"<This block of commented-out lines of code should be removed.(ŽúüÏ8Ø ö‹Ò1
 H
-java:S1168D"+Return an empty collection instead of null.(¥¹ï8Ù ö‹Ò1
+java:S1168J"+Return an empty collection instead of null.(¥¹ï8Ù ö‹Ò1
