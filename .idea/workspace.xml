@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25882b54-c897-4eb6-8848-3a2889d5ccde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bakery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a634fdd206abeee54156826f492d949cee8917e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac68e36a8378621b8d46e4c6b30e6cbc18b9a773" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/a/4a634fdd206abeee54156826f492d949cee8917e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/c/ac68e36a8378621b8d46e4c6b30e6cbc18b9a773" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +15,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/bakery/controller/CategoryController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -63,7 +58,7 @@
     "git-widget-placeholder": "Nimash",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Fusion-X Workspace/STS workspace/Fusion-X Project/bakery",
+    "last_opened_file_path": "D:/FusionX/comn-common",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -121,7 +116,19 @@
       <workItem from="1705474271271" duration="336000" />
       <workItem from="1705474621463" duration="1771000" />
       <workItem from="1705481803178" duration="4493000" />
+      <workItem from="1705549985683" duration="2157000" />
+      <workItem from="1705552663995" duration="658000" />
+      <workItem from="1705553366739" duration="8500000" />
+      <workItem from="1705895133270" duration="4163000" />
+      <workItem from="1705979858261" duration="627000" />
+      <workItem from="1705984107445" duration="627000" />
       <workItem from="1705639518160" duration="24305000" />
+      <workItem from="1705986547040" duration="55000" />
+      <workItem from="1705986619585" duration="90000" />
+      <workItem from="1705986722855" duration="130000" />
+      <workItem from="1705986881573" duration="411000" />
+      <workItem from="1705987326555" duration="170000" />
+      <workItem from="1705987507782" duration="7300000" />
     </task>
     <servers />
   </component>
