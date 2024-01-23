@@ -5,4 +5,9 @@ databaseChangeLog:
       file: "db/tables/customer.yml"
   - include:
       file: "db/tables/category.yml"
+<<<<<<< HEAD
 
+=======
+  - include:
+      file: "db/tables/item.yml"
+>>>>>>> bb68dc28693f423baea7688abb624b88f45398c4
