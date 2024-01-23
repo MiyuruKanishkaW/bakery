@@ -7,3 +7,4 @@ databaseChangeLog:
       file: "db/tables/category.yml"
   - include:
       file: "db/tables/item.yml"
+
