@@ -51,6 +51,14 @@ public class Order {
     @JoinColumn(name = "id", nullable = false)
     private Customer customers;
 
+//    @JsonIgnore
+//    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
+//    @JoinColumn(name = "id", nullable = false)
+//    private OrderItem orderItem;
+
+
+
+
 //----------------Getters & Setters----------------
 
 
