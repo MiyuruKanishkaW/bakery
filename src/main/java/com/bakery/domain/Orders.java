@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Certificate Details Domain
@@ -17,8 +18,9 @@ import java.util.Date;
  */
 
 @Entity
-@Table(name ="order")
-public class Order {
+@Table(name ="orders")
+public class Orders {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -48,8 +50,14 @@ public class Order {
 
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
-    @JoinColumn(name = "id", nullable = false)
+    @JoinColumn(name = "customer_id", nullable = false)
     private Customer customers;
+    @Transient
+    @OneToMany(mappedBy = "orders", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List <OrderItem> orderItems;
+    @Transient
+    private Long customerId;
+
 
 //----------------Getters & Setters----------------
 
@@ -117,6 +125,7 @@ public class Order {
     public void setModifiedUser(String modifiedUser) {
         this.modifiedUser = modifiedUser;
     }
+
     public Customer getCustomers() {
         return customers;
     }
@@ -124,4 +133,26 @@ public class Order {
     public void setCustomers(Customer customers) {
         this.customers = customers;
     }
+
+    public List<OrderItem> getOrderItems() {
+        return orderItems;
+    }
+
+    public void setOrderItems(List<OrderItem> orderItems) {
+        this.orderItems = orderItems;
+    }
+
+    public Long getCustomerId() {
+        if (customers!=null){
+            return customers.getId();
+        }else {
+            return null;
+        }
+    }
+
+    public void setCustomerId(Long customerId) {
+        this.customerId = customerId;
+    }
+
+
 }

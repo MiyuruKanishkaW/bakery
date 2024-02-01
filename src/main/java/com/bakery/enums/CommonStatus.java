@@ -3,6 +3,8 @@ package com.bakery.enums;
 public enum CommonStatus {
 	
 	ACTIVE,
-	INACTIVE
+	INACTIVE,
+	COMPLETED,
+	CANCELED
 
 }

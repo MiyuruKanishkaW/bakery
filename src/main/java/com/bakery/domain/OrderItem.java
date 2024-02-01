@@ -3,6 +3,7 @@ package com.bakery.domain;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.sql.Timestamp;
 import java.util.Date;
 
 /*
@@ -43,12 +44,13 @@ public class OrderItem {
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     @JoinColumn(name = "order_id", nullable = false)
-    public Order order;
+    private Orders orderId;
 
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     @JoinColumn(name = "item_id", nullable = false)
-    public Item item;
+    private Item itemId;
+
 
     public Long getId() {
         return id;
@@ -58,8 +60,8 @@ public class OrderItem {
         this.id = id;
     }
 
-    public String getStatus() {
-        return status;
+    public String getStatus(String status) {
+        return this.status;
     }
 
     public void setStatus(String status) {
@@ -82,7 +84,7 @@ public class OrderItem {
         this.createdUser = createdUser;
     }
 
-    public Date getModifiedDate() {
+    public Date getModifiedDate(Timestamp currentTimesTamp) {
         return modifiedDate;
     }
 
@@ -98,19 +100,19 @@ public class OrderItem {
         this.modifiedUser = modifiedUser;
     }
 
-    public Order getOrder() {
-        return order;
+    public Orders getOrderId() {
+        return orderId;
     }
 
-    public void setOrder(Order order) {
-        this.order = order;
+    public void setOrderId(Orders orderId) {
+        this.orderId = orderId;
     }
 
-    public Item getItem() {
-        return item;
+    public Item getItemId() {
+        return itemId;
     }
 
-    public void setItem(Item item) {
-        this.item = item;
+    public void setItemId(Item itemId) {
+        this.itemId = itemId;
     }
 }

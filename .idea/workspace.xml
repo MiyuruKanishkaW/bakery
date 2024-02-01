@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25882b54-c897-4eb6-8848-3a2889d5ccde" name="Changes" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/7640d427d1a649ab31a082e42a65fa5ad4f5ba67" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/7640d427d1a649ab31a082e42a65fa5ad4f5ba67" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7dbe21c27b7cd4dabdec74c6487f37b1131b2034" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7dbe21c27b7cd4dabdec74c6487f37b1131b2034" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac68e36a8378621b8d46e4c6b30e6cbc18b9a773" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac68e36a8378621b8d46e4c6b30e6cbc18b9a773" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_liquibase_liquibase_core_3_6_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/controller/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/domain/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/repository/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/service/empty.txt" beforeDir="false" />
-
->>>>>>> d054f9fdf1ecdc38c9eccd7f0a29a329c53d3c9a
+      <change beforePath="$PROJECT_DIR$/bakery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bakery.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +41,13 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
+    &quot;associatedIndex&quot;: 4
+    }</component>
   <component name="ProjectId" id="2aX3A4ee2bsiXgnHBQh5MD4yKiG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -73,7 +62,7 @@
     &quot;git-widget-placeholder&quot;: &quot;Nimash&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Fusion-X Workspace/STS workspace/Fusion-X Project/bakery&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/FusionX/comn-common&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,34 +73,6 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;ddf72373feb4952b3e26db83e24d8da4&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-=======
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.BakeryApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Nimash",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Fusion-X Workspace/STS workspace/New folder/comn-common",
-    "last_opened_file_path": "D:/FusionX/comn-common",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "ddf72373feb4952b3e26db83e24d8da4",
-    "vue.rearranger.settings.migration": "true"
->>>>>>> d054f9fdf1ecdc38c9eccd7f0a29a329c53d3c9a
   }
 }</component>
   <component name="RunManager">
@@ -174,16 +135,13 @@
       <workItem from="1705979858261" duration="627000" />
       <workItem from="1705984107445" duration="627000" />
       <workItem from="1705639518160" duration="24305000" />
-<<<<<<< HEAD
-      <workItem from="1705985326292" duration="8437000" />
-=======
       <workItem from="1705986547040" duration="55000" />
       <workItem from="1705986619585" duration="90000" />
       <workItem from="1705986722855" duration="130000" />
       <workItem from="1705986881573" duration="411000" />
       <workItem from="1705987326555" duration="170000" />
-      <workItem from="1705987507782" duration="7300000" />
->>>>>>> d054f9fdf1ecdc38c9eccd7f0a29a329c53d3c9a
+      <workItem from="1705987507782" duration="14514000" />
+      <workItem from="1706018840027" duration="13000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@ databaseChangeLog:
   - include:
       file: "db/tables/item.yml"
   - include:
-      file: "db/tables/order.yml"
+      file: "db/tables/orders.yml"
   - include:
       file: "db/tables/orderitem.yml"
 

@@ -135,7 +135,6 @@ public class ItemServiceImpl implements ItemService {
         itemRepository.deleteAll();
         return null;
     }
-
     @Override
     public void deleteById(Long id){
         itemRepository.deleteById(id);

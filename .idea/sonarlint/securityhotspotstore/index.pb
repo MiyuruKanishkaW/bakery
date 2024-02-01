@@ -37,3 +37,7 @@ e
 5src/main/java/com/bakery/service/CustomerService.java,d\b\dba733df075c2574b41391185c5b54f4c6279e1c
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Z
+*src/main/java/com/bakery/domain/Order.java,4\b\4b6b7bd28e85ef216f61adb7aadd89e25c278eb0
+^
+.src/main/java/com/bakery/domain/OrderItem.java,2\b\2b7d03e23f9c7917f53007b0685e90cb44e14722
