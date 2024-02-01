@@ -24,7 +24,7 @@ import java.util.Optional;
  */
 
 @Component
-@Transactional
+@Transactional(rollbackFor = Exception.class)
 public class ItemServiceImpl implements ItemService {
 
     @Autowired

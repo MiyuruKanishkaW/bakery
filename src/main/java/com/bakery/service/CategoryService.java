@@ -20,7 +20,6 @@ import java.util.Optional;
  *******************************************************************************************************
  */
 @Service
-@Transactional
 public interface CategoryService {
     public String createCategory(CategoryRequest categoryRequest);
 

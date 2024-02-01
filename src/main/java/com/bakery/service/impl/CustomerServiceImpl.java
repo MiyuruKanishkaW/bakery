@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Calendar;
 import java.util.List;
 import java.util.Optional;
 
@@ -23,7 +24,7 @@ import java.util.Optional;
 */
 
 @Component
-@Transactional
+@Transactional(rollbackFor = Exception.class)
 public class CustomerServiceImpl implements CustomerService {
 
     @Autowired
@@ -68,13 +69,17 @@ public class CustomerServiceImpl implements CustomerService {
     public String saveCustomer(CustomerResource customerResource){
         Customer customer = new Customer();
 
+        Calendar calendar = Calendar.getInstance();
+        java.util.Date now = calendar.getTime();
+        java.sql.Timestamp currentTimestamp = new  java.sql.Timestamp(now.getTime());
+
         customer.setFirstName(customerResource.getFirstName());
         customer.setLastName(customerResource.getLastName());
         customer.setEmail(customerResource.getEmail());
         customer.setContactNumber(customerResource.getContactNumber());
         customer.setUserName(customerResource.getUserName());
         customer.setStatus(customerResource.getStatus());
-        customer.setCreatedDate(customerResource.getCreatedDate());
+        customer.setCreatedDate(currentTimestamp);
         customer.setCreatedUser(customerResource.getCreatedUser());
         customer.setModifiedDate(customerResource.getModifiedDate());
         customer.setModifiedUser(customerResource.getModifiedUser());

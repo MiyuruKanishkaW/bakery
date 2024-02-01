@@ -25,6 +25,12 @@ public class OrderItem {
     @Column(name = "id")
     private Long id;
 
+    @Transient
+    private Long itemId;
+
+    @Transient
+    private Long orderId;
+
     @Column(name = "status")
     private String status;
 
@@ -43,12 +49,16 @@ public class OrderItem {
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     @JoinColumn(name = "order_id", nullable = false)
-    public Order order;
+    public Orders orders;
 
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     @JoinColumn(name = "item_id", nullable = false)
     public Item item;
+
+
+
+//----------getters and setters------------------------------------------------------
 
     public Long getId() {
         return id;
@@ -98,12 +108,12 @@ public class OrderItem {
         this.modifiedUser = modifiedUser;
     }
 
-    public Order getOrder() {
-        return order;
+    public Orders getOrders() {
+        return orders;
     }
 
-    public void setOrder(Order order) {
-        this.order = order;
+    public void setOrders(Orders orders) {
+        this.orders = orders;
     }
 
     public Item getItem() {
@@ -112,5 +122,29 @@ public class OrderItem {
 
     public void setItem(Item item) {
         this.item = item;
+    }
+
+    public Long getItemId() {
+        if (item!=null){
+            return item.getId();
+        }else {
+            return null;
+        }
+    }
+
+    public void setItemId(Long itemId) {
+        this.itemId = itemId;
+    }
+
+    public Long getOrderId() {
+        if (orders!=null){
+            return orders.getId();
+        }else {
+            return null;
+        }
+    }
+
+    public void setOrderId(Long orderId) {
+        this.orderId = orderId;
     }
 }
