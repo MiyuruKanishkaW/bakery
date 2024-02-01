@@ -43,7 +43,7 @@ public class OrderItem {
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     @JoinColumn(name = "order_id", nullable = false)
-    public Order order;
+    public Orders order;
 
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
@@ -98,12 +98,12 @@ public class OrderItem {
         this.modifiedUser = modifiedUser;
     }
 
-    public Order getOrder() {
+    public Orders getOrder() {
         return order;
     }
 
-    public void setOrder(Order order) {
-        this.order = order;
+    public void setOrder(Orders orders) {
+        this.order = orders;
     }
 
     public Item getItem() {

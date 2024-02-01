@@ -5,7 +5,9 @@ import com.bakery.repository.CategoryRepository;
 import com.bakery.resource.CategoryRequest;
 import com.bakery.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -22,7 +24,8 @@ import java.util.Optional;
  */
 
 
-@Service
+@Component
+@Transactional(rollbackFor = Exception.class)
 public class CategoryServiceImpl implements CategoryService {
 
 

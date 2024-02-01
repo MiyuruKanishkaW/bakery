@@ -71,7 +71,7 @@ The attributes are mentioned below.
 		Modified user		
 
 
-Customer can come to the bakery and order food from the bakery as you all are doing in real life
+Customer can come to the bakery and orders food from the bakery as you all are doing in real life
 You have to create below APIs
 			Customer
 				Add new customer
@@ -100,13 +100,13 @@ You have to create below APIs
 				Delete item	
 
 			Order
-				Add new order
-				Get order by reference code
-				Get order by id
-				Get order by customer id
+				Add new orders
+				Get orders by reference code
+				Get orders by id
+				Get orders by customer id
 				Get all orders
-				Update order
-				Delete order
+				Update orders
+				Delete orders
 
 			Order Item
 				

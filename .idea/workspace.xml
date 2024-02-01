@@ -5,14 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25882b54-c897-4eb6-8848-3a2889d5ccde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Order.java" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/controller/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/domain/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/repository/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/service/empty.txt" beforeDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/BakeryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/BakeryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/controller/OrderItemControllerNimash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/domain/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/domain/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/repository/OrderItemRepositoryNimash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/resource/OderItemResourceNimash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/service/OrderItemServiceNimash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bakery/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bakery/service/impl/OrderItemServiceImplNimash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/tables/order.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/tables/orders.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/tables/orderitem.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/tables/orderitem.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/notification.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/notification.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/controller/customerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/controller/customerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/domain/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/domain/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/repository/ItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/repository/ItemRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/resource/ItemResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/resource/ItemResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bakery/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bakery/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/tables/orderitem.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/tables/orderitem.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/notification.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/notification.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +90,7 @@
     "git-widget-placeholder": "Nimash",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-
-    "last_opened_file_path": "D:/FusionX/Company",
-
-    "last_opened_file_path": "D:/Fusion-X Workspace/STS workspace/New folder/comn-common",
-    "last_opened_file_path": "D:/FusionX/comn-common",
-
+    "last_opened_file_path": "D:/Intelij Workspace/bakery",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,6 +122,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="25882b54-c897-4eb6-8848-3a2889d5ccde" name="Changes" comment="" />
@@ -149,6 +172,17 @@
       <workItem from="1705986881573" duration="411000" />
       <workItem from="1705987326555" duration="170000" />
       <workItem from="1705987507782" duration="14514000" />
+      <workItem from="1706018910463" duration="5047000" />
+      <workItem from="1706063368386" duration="10317000" />
+      <workItem from="1706073708754" duration="3000" />
+      <workItem from="1706074539952" duration="90000" />
+      <workItem from="1706074647977" duration="12719000" />
+      <workItem from="1706237572649" duration="13135000" />
+      <workItem from="1706256999034" duration="9726000" />
+      <workItem from="1706499787032" duration="5887000" />
+      <workItem from="1706508514517" duration="15985000" />
+      <workItem from="1706584661109" duration="22929000" />
+      <workItem from="1706668772711" duration="23009000" />
     </task>
     <servers />
   </component>

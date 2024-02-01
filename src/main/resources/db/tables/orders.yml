@@ -4,7 +4,7 @@ databaseChangeLog:
       author: NimashL
       changes:
         - createTable:
-            tableName: order_item
+            tableName: orders
             columns:
               - column:
                   name: id
@@ -14,19 +14,22 @@ databaseChangeLog:
                     nullable: false
                     primaryKey: true
               - column:
-                  name: order_id
+                  name: customer_id
                   type: bigint
                   constraints:
                     nullable: false
-                    foreignKeyName: fk_order_id
-                    references: orders(id)
+                    foreignKeyName: fk_customer_id
+                    references: customer(id)
               - column:
-                  name: item_id
-                  type: bigint
+                  name: reference_Code
+                  type: varchar(70)
                   constraints:
                     nullable: false
-                    foreignKeyName: fk_item_id
-                    references: item(id)
+              - column:
+                  name: description
+                  type: varchar(500)
+                  constraints:
+                    nullable: true
               - column:
                   name: status
                   type: varchar(30)
@@ -52,5 +55,3 @@ databaseChangeLog:
                   type: timestamp
                   constraints:
                     nullable: true
-
-

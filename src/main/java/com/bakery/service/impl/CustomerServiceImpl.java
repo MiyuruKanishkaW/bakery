@@ -23,7 +23,7 @@ import java.util.Optional;
 */
 
 @Component
-@Transactional
+@Transactional(rollbackFor = Exception.class)
 public class CustomerServiceImpl implements CustomerService {
 
     @Autowired

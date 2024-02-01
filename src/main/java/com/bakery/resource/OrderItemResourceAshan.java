@@ -2,40 +2,33 @@ package com.bakery.resource;
 
 import java.util.Date;
 
-/*
- * Certificate Details Resource
- *
-******************************************************************************************************
- ###      Date           Story Point       Task No.          Author            Description
- -----------------------------------------------------------------------------------------------------
-  1    23-01-2024                                            NimashL           Created
+public class OrderItemResourceAshan {
 
-******************************************************************************************************
-*/
-public class OderItemResourceNimash {
+    private Long item;
 
-    private Long oderId;
-    private Long itemId;
     private String status;
+
     private Date createdDate;
+
     private String createdUser;
+
     private Date modifiedDate;
+
     private String modifiedUser;
 
-    public Long getOderId() {
-        return oderId;
+    private Long orderItem;
+
+
+
+    //---------------getters & setters---------------
+
+
+    public Long getItem() {
+        return item;
     }
 
-    public void setOderId(Long oderId) {
-        this.oderId = oderId;
-    }
-
-    public Long getItemId() {
-        return itemId;
-    }
-
-    public void setItemId(Long itemId) {
-        this.itemId = itemId;
+    public void setItem(Long item) {
+        this.item = item;
     }
 
     public String getStatus() {
@@ -76,5 +69,13 @@ public class OderItemResourceNimash {
 
     public void setModifiedUser(String modifiedUser) {
         this.modifiedUser = modifiedUser;
+    }
+
+    public Long getOrderItem() {
+        return orderItem;
+    }
+
+    public void setOrderItem(Long orderItem) {
+        this.orderItem = orderItem;
     }
 }
